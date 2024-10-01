@@ -1,0 +1,25 @@
+# Brain MRI Metastasis Segmentation
+
+## Overview
+This project implements Nested U-Net and Attention U-Net architectures for brain MRI metastasis segmentation.
+
+## Architectures
+- **Nested U-Net**: Improves segmentation by utilizing nested skip pathways.
+- **Attention U-Net**: Incorporates attention mechanisms to focus on relevant features.
+
+## Setup Instructions
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Run the FAST API server: `uvicorn main:app --reload`.
+4. Launch the Streamlit UI: `streamlit run app.py`.
+
+## Challenges
+- Handling of class imbalance in segmentation.
+- Noise in MRI images affecting segmentation quality.
+
+## Future Work
+- Explore advanced augmentation techniques.
+- Implement 3D U-Net for volumetric data.
+
+## Video Demonstration
+[Link to Video]
